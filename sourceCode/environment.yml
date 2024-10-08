@@ -1,0 +1,23 @@
+name: lp_recognition_env_2
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - opencv
+  - pytorch=1.13.1
+  - torchvision=0.14.1
+  - pillow
+  - pyyaml
+  - requests
+  - matplotlib
+  - scipy
+  - pandas
+  - seaborn
+  - libjpeg-turbo
+  - libpng
+  - pip
+  - pip:
+    - paddlepaddle
+    - paddleocr
